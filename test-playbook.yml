@@ -1,0 +1,8 @@
+---
+- hosts: all
+  vars_files:
+    - "vars/{{ inventory }}.yml"
+    - "vars/secrets/{{ inventory }}.yml"
+  tasks:
+    - name: ping
+      ping: {}

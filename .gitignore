@@ -1,0 +1,14 @@
+defaults/*
+files/*
+inventory/*
+roles/*
+templates/*
+vars/*.yml
+vars/secrets/*.yml
+
+!*/.gitkeep
+!inventory/example.ini
+!vars/example.yml
+
+.vault.pass
+*.retry
